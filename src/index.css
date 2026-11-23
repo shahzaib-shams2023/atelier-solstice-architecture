@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #F6F3EB;
+  color: #1E1C1A;
+}
+
+/* Tactile Grain Texture */
+.bg-tactile {
+  background-image: radial-gradient(rgba(30, 28, 26, 0.035) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* Architectural Plinth Panel */
+.plinth-panel {
+  background: rgba(250, 248, 245, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(227, 222, 212, 0.9);
+}
+
+.plinth-card {
+  background: #FAF8F5;
+  border: 1px solid #E3DED4;
+  box-shadow: 0 10px 30px -10px rgba(30, 28, 26, 0.05);
+}
